@@ -1,0 +1,80 @@
+body {
+    background-color: #EAF6F6; /* Light blue background */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body takes up the full height */
+}
+
+.quiz-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    max-height: 90vh; /* Prevent the container from exceeding the viewport height */
+}
+
+h2 {
+    color: #5A4E8C; /* Purple text color */
+    margin-bottom: 20px;
+}
+
+#quiz-box {
+    margin-bottom: 20px;
+}
+
+.question-box {
+    background-color: #D5C6E0; /* Light purple background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.question-box h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin-bottom: 10px;
+}
+
+.options input {
+    margin-right: 10px;
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: #5A4E8C; /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit-btn:hover {
+    background-color: #4A3C6E; /* Darker purple */
+}
+
+#score-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #D5C6E0; /* Light purple background */
+    border-radius: 8px;
+    font-size: 18px;
+    color: #333;
+}

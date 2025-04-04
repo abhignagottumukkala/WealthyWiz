@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EAF6F6; /* Light blue background */
+}
+
+.chat-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.chat-title {
+    text-align: center;
+    font-size: 24px;
+    color: #5A4E8C; /* Purple text color */
+    margin: 20px 0;
+}
+
+.chatbot-gif {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chatbot-gif img {
+    width: 150px; /* Adjust the size of the GIF */
+    height: auto;
+    border-radius: 8px;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.message:nth-child(odd) {
+    background-color: #e0f7fa; /* Light blue for user messages */
+    align-self: flex-start;
+}
+
+.message:nth-child(even) {
+    background-color: #e8eaf6; /* Light purple for bot messages */
+    align-self: flex-end;
+}
+
+.bot-typing {
+    font-style: italic;
+    color: #888;
+}
+
+.input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#userInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+#sendBtn {
+    padding: 10px 20px;
+    background-color: #5A4E8C; /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#sendBtn:hover {
+    background-color: #4A3C6E; /* Darker purple */
+}
+
+.suggestions {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+}
+
+.suggestions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5A4E8C;
+    color: white;
+    cursor: pointer;
+}
+
+.suggestions button:hover {
+    background-color: #4A3C6E;
+}

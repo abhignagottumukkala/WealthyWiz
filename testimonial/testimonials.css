@@ -1,0 +1,54 @@
+body {
+    background-color: #FFF5F1; /* Light pastel background */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-container {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #FBEAE7;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #FF8BA7; /* Pastel pink heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #FFF5F1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feedback {
+    font-style: italic;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #FF8BA7; /* Match the heading color */
+    margin-top: 10px;
+}
+
+.testimonial-date {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EAF6F6; /* Light blue background */
+}
+
+.contact-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #5A4E8C; /* Purple text color */
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add spacing between form elements */
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%; /* Ensure fields stay within the container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+#contact-form textarea {
+    resize: none; /* Disable resizing for the textarea */
+    height: 100px; /* Set a fixed height for the textarea */
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #5A4E8C; /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-form button:hover {
+    background-color: #4A3C6E; /* Darker purple */
+}

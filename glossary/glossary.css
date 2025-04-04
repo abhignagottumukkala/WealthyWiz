@@ -1,0 +1,51 @@
+body {
+    background-color: #EAF6F6;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.glossary-container {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #D5C6E0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #66BFBF;
+    margin-bottom: 20px;
+}
+
+#glossary-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #66BFBF;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#glossary-btn {
+    padding: 10px 20px;
+    background-color: #66BFBF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#glossary-btn:hover {
+    background-color: #4CA3A3;
+}
+
+#glossary-result {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
