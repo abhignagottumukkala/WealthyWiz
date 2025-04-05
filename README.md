@@ -11,6 +11,6 @@ FAQs & Testimonials: Quick answers and real user experiences.
 Contact Us: Responsive form to get in touch.
 
 🛠️ Technologies Used
-Frontend: HTML, CSS (Pastel-themed custom styling), JavaScript
+Frontend: HTML, CSS, JavaScript
 Interactivity: Dynamic elements via vanilla JavaScript
 Version Control: Git & GitHub
